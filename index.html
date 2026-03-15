@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>İslami Takvim</title>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- manifest bağlantısı -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#c8a84b">
+
+<!-- service worker kaydı — </body> kapanmadan önce -->
+<script>
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('/sw.js');
+  }
+</script>
 <style>
 :root{
   --bg:#080a06;--surface:#0f1209;--card:#161a0d;--border:#252e14;
