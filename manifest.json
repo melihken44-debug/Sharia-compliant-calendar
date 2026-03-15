@@ -1,0 +1,37 @@
+{
+  "name": "İslami Takvim",
+  "short_name": "İslami Takvim",
+  "description": "Hicri takvim, namaz vakitleri, namaz takibi ve günün ayeti",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080a06",
+  "theme_color": "#c8a84b",
+  "lang": "tr",
+  "categories": ["lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Namaz Vakitleri",
+      "short_name": "Vakitler",
+      "description": "Bugünün namaz vakitlerine git",
+      "url": "/index.html#prayer",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

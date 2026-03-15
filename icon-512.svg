@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Arka plan -->
+  <rect width="512" height="512" rx="80" fill="#0f1209"/>
+  <!-- Geometrik İslami desen çerçevesi -->
+  <polygon points="256,40 340,120 440,120 440,392 340,392 256,472 172,392 72,392 72,120 172,120"
+    fill="none" stroke="#c8a84b" stroke-width="6" opacity="0.5"/>
+  <polygon points="256,90 322,155 410,155 410,357 322,357 256,422 190,357 102,357 102,155 190,155"
+    fill="none" stroke="#c8a84b" stroke-width="3" opacity="0.3"/>
+  <!-- Hilal -->
+  <circle cx="256" cy="200" r="90" fill="#c8a84b"/>
+  <circle cx="296" cy="180" r="76" fill="#0f1209"/>
+  <!-- Yıldız -->
+  <polygon points="310,230 320,260 352,260 328,278 337,308 310,290 283,308 292,278 268,260 300,260"
+    fill="#c8a84b"/>
+  <!-- Alt yazı -->
+  <text x="256" y="390" text-anchor="middle"
+    font-family="Georgia, serif" font-size="38" fill="#c8a84b" letter-spacing="2">
+    تقويم
+  </text>
+  <text x="256" y="440" text-anchor="middle"
+    font-family="Georgia, serif" font-size="22" fill="#6dbe8a" letter-spacing="3">
+    İSLAMİ TAKVİM
+  </text>
+</svg>
